@@ -68,18 +68,24 @@ a:hover {
 	opacity: 0.6;
 	position: absolute;
 	margin-top: 50px;
-	width: 95%;
-	height: 450px;
-	background-color: #CCFFFF;
+	margin-left: 25%;
+	width: 50%;
+	height: 490px;
+	background-color: #FFFFCC;
+}
+#resume p{
+	text-align: center;
 }
 
 #footer {
-	z-index: 1;
-	position: fixed;
-	width: 97.5%;
-	margin-top: -20px;
-	height: 60px;
-	margin-bottom: 10px;
+	margin-top: 250px;
+	bottom: 0px;
+	height: 50px;
+	background-color: rgba(100, 0, 0, 0.4);
+	font-family: Verdana, sans-serif;
+	font-size: 14px;
+	text-align: center;
+	color: #ffffff;
 }
 
 img 
@@ -133,11 +139,10 @@ a:visited{
 #contact {
 	margin: 10%;
 }
-/* #### bootstrap Form #### */
+
 .bootstrap-frm {
     margin-left:auto;
     margin-right:auto;
-
     max-width: 500px;
     background: #FFF;
     padding: 20px 30px 20px 30px;
